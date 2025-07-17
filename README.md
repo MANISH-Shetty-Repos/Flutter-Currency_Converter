@@ -18,15 +18,38 @@ A **Flutter-based Currency Converter App** that allows users to convert between 
 
 - 🌐 **Live exchange rates** via API  
 - 🎨 **Beautiful and responsive UI**  
-- ❗ Input validation with popup alerts  
-- 🖥️ Supports Android, iOS, Web, and Desktop  
+- ❗ **Input validation** with popup alerts  
+- 🖥️ Supports **Android, iOS, Web, and Desktop**
 
 ---
 
 ## **🚀 How to Run the Project**
 
-### **Clone the repository**
+ Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/currency_converter.git
 cd currency_converter
+
+```
+Install dependencies
+
+```bash
+flutter pub get
+
+```
+
+Add your API Key
+```bash
+final String apiKey = "YOUR_API_KEY_HERE";
+
+```
+Run the App
+```bash
+flutter run
+
+
+```
+
+
+
